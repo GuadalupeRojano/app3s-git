@@ -1,0 +1,275 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dia Mundial de la Salud</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app3tema.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--grupo javascript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"></script> -->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/imagen2.jpg','imagenes/imagen4.jpg','imagenes/imagen6.jpg','imagenes/imagen8.jpg','imagenes/imagen10.jpg','imagenes/imagen5.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Informacion Sobre el Dia Mundial de la Salud</h1>
+ </div>
+ <div data-role="main" class="ui-content">
+ <div data-role="collapsible" data-content-theme="false">
+ <h1>Infografia</h1>
+ <img src="imagenes/infografia.jpg" width="70%" height="70%" alt="logo">
+ <div>
+ <p>Informacion sobre el Dia Mundial de la Salud</p>
+ <br>
+ <div>
+ <p>La Organización Mundial de la Salud (OMS) desempeña un papel fundamental dentro del sistema de las Naciones Unidas como la autoridad dirigente y coordinadora de la salud internacional.
+ <br>
+ <ul>
+ <li>Sus amplias competencias implican ofrecer liderazgo en temas de salud cada vez más complejos a nivel mundial, producir directrices de salud, normas y estándares, realizar el seguimiento y la evaluación de las tendencias de salud y determinar las líneas de investigación en materia de salud, </li>
+ 
+ <li>También se compromete a proporcionar apoyo técnico a los países y ayudarlos a abordar problemas de salud pública urgentes. </li>
+ </ul>
+La OMS se esfuerza por desarrollar asociaciones innovadoras y creativas, promoviendo nuevas formas de trabajar con el fin de alcanzar objetivos comunes de salud y, junto con más de 190 Estados miembros, trabaja con organismos innumerables, entre ellos otros organismos de las Naciones Unidas, organizaciones no gubernamentales, donantes y la sociedad civil.<br>
+ Las siguientes competencias profesionales:<br>
+ <ul>
+ <li>La organización lidera la respuesta a la epidemia del VIH del sector de la salud a escala mundial</li>
+ <li>Como copatrocinador de ONUSIDA, la OMS toma la iniciativa en el tratamiento y la atención del VIH y la coinfección VIH y la tuberculosis, y coordina conjuntamente los trabajos para la eliminación de la transmisión materno infantil del VIH con el Fondo de las Naciones Unidas para la Infancia (UNICEF)</li>
+ <li>En 2015, la OMS se centrará en la colaboración con los países para alcanzar las metas y objetivos a escala mundial, incluyendo los descritos en la Estrategia mundial del sector sanitario sobre el VIH y el sida para el período 2011-2015.</li>
+ <li>Esta estrategia tiene como objetivo guiar una respuesta al VIH sostenible del sector salud mediante el fortalecimiento de los sistemas comunitarios y de salud</li>
+ <li>así como abordar los factores sociales determinantes de salud que actúan como barreras para la respuesta y la promoción para mejorar las condiciones</li>
+ </ul>
+ </p>
+ </div>
+ 
+ <div>
+ 
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+ <div>
+ <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+ <li class="ui-first-child  ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>¿Cuando se celebra y porque?</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>¿Que se trata de conseguir con la campaña?</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>¿Que hace la OMS?</h2>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Cobertura Sanitaria Universal</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Que no incluye la cobertura sanitaria universal?</h2>
+</a>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/imagen10.jpg" alt="imagen10" title="imagen10" id="wows1_0"/></li>
+		<li><img src="data1/images/imagen11.jpg" alt="imagen11" title="imagen11" id="wows1_1"/></li>
+		<li><img src="data1/images/imagen12.jpg" alt="imagen12" title="imagen12" id="wows1_2"/></li>
+		<li><img src="data1/images/imagen13.jpg" alt="imagen13" title="imagen13" id="wows1_3"/></li>
+		<li><img src="data1/images/imagen14.jpg" alt="imagen14" title="imagen14" id="wows1_4"/></li>
+		<li><img src="data1/images/imagen15.jpg" alt="imagen15" title="imagen15" id="wows1_5"/></li>
+		<li><img src="data1/images/imagen16.jpg" alt="imagen16" title="imagen16" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/imagen17.jpg" alt="http://wowslider.com/" title="imagen17" id="wows1_7"/></a></li>
+		<li><img src="data1/images/imagen18.jpg" alt="imagen18" title="imagen18" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="imagen10"><span><img src="data1/tooltips/imagen10.jpg" alt="imagen10"/>1</span></a>
+		<a href="#" title="imagen11"><span><img src="data1/tooltips/imagen11.jpg" alt="imagen11"/>2</span></a>
+		<a href="#" title="imagen12"><span><img src="data1/tooltips/imagen12.jpg" alt="imagen12"/>3</span></a>
+		<a href="#" title="imagen13"><span><img src="data1/tooltips/imagen13.jpg" alt="imagen13"/>4</span></a>
+		<a href="#" title="imagen14"><span><img src="data1/tooltips/imagen14.jpg" alt="imagen14"/>5</span></a>
+		<a href="#" title="imagen15"><span><img src="data1/tooltips/imagen15.jpg" alt="imagen15"/>6</span></a>
+		<a href="#" title="imagen16"><span><img src="data1/tooltips/imagen16.jpg" alt="imagen16"/>7</span></a>
+		<a href="#" title="imagen17"><span><img src="data1/tooltips/imagen17.jpg" alt="imagen17"/>8</span></a>
+		<a href="#" title="imagen18"><span><img src="data1/tooltips/imagen18.jpg" alt="imagen18"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/iconozalud.png" width="46" height="46" alt="pie">
+</div>
+<div>
+<h4>Aplicacion3 Dia Mundial de la Salud</h4>
+<h4>Rojano Méndez Guadalupe</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>¿Cuando se celebra y porque?</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>Un 7 de abril más se celebra el Día Mundial de la Salud, ¿pero sabemos muy bien por qué? ¿No estamos ya saturados de que todos los días sea el Día Mundial o el Día Internacional a favor de algo o contra algo?</p>
+<p>Espero que este artículo nos ayude a entender el por qué hoy se celebra el Día Mundial de la Salud y la importancia que ello tiene para todos nosotros.</p>
+<p>La razón por la que celebramos el Día Mundial de la Salud
+Aunque muchas veces en broma se dice que el Día Mundial de la Salud es el 22 de diciembre, fecha en la que se celebra el Sorteo de Lotería especial de Navidad (sobre todo para aquellos que no se han visto tocados por la gracia de los números del bombo) lo cierto es que es hoy, 7 de abril, cuando se celebra oficialmente este día.</p>
+<p>Y esto es así porque precisamente el 7 de abril de cada año se aprovecha para conmemorar el aniversario de la fundación de la Organización Mundial de la Salud.</p>
+<p>Esto nos ofrece una oportunidad única para movilizar la acción en torno a un tema de salud específico que preocupe a las personas de todo el mundo.</p>
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/imagen2.jpg',1)"><img src="imagenes/imagen1.jpg" width="265" height="190" id="Image12"></a> </p>
+<a href="https://www.youtube.com/watch?v=nLtZ64t8BnU" target="_self"> Ir a ver el Video</a>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/iconozalud.png" width="46" height="46" alt="pie">
+</div>
+<h4> Aplicacion 3 Dia Mundial de la Salud</h4>
+<h4>Rojano Mendez Guadalupe</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>¿Que se trata de conseguir con la campaña?</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>Campaña de 2017 de la OMS
+Si otros años se ha dedicado este día a temas tan variados e interesantes como el control de la hipertensión, la inocuidad de los alimentos o la diabetes; este año desde la OMS han optado por la depresión como tema central de la campaña de 2017.</p>
+<p>De acuerdo con datos de la Organización Mundial de la Salud, la depresión es la principal causa de problemas de salud y discapacidad en todo el mundo.</p>
+<p>Según las últimas estimaciones, más de 300 millones de personas viven con depresión, un incremento de más del 18% entre 2005 y 2015.</p>
+<p>La falta de apoyo a las personas con trastornos mentales, junto con el miedo al estigma, impiden que muchos accedan al tratamiento que necesitan para vivir vidas saludables y productivas.</p>
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/imagen5.jpg',1)"><img src="imagenes/imagen7.jpg" width="275" height="183" id="Image"></a>  </p>
+<p><a href="https://www.youtube.com/watch?v=9JjbBQzmnw8" target="_self">Ir a la página en internet relacionada al tema </a></p>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/iconozalud.png" width="46" height="46" alt="pie">
+</div>
+<h4>Aplicacion 3 Dia Mundial de la Salud</h4>
+<h4>Rojano Mendez Guadalupe</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>¿Que hace la OMS?</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>Quiénes somos y qué hacemos
+«La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades».
+Constitución de la OMS</p>
+<p>Nuestro objetivo es construir un futuro mejor y más saludable para las personas de todo el mundo. A través de las oficinas que la OMS tiene en más de 150 países, nuestro personal trabaja junto con los gobiernos y otros asociados para que todas las personas gocen del grado máximo de salud que se pueda lograr.</p>
+<p>Juntos nos esforzamos por luchar contra las enfermedades, ya sean infecciosas, como la gripe y la infección por el VIH, o no transmisibles, como el cáncer y las cardiopatías. Ayudamos a que las madres y los niños sobrevivan y avancen en la vida para que puedan conservar la salud hasta una edad avanzada. Velamos por la salubridad del aire que respiran las personas, de los alimentos que comen y del agua que beben, así como de los medicamentos y las vacunas que necesitan.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/imagen6.jpg',1)"><img src="imagenes/imagen5.jpg" width="217" height="232" id="Image2"></a></div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/iconozalud.png" width="46" height="46" alt="pie">
+</div>
+<h4>Aplicacion 3 Dia Mundial de la Salud</h4>
+<h4>Rojano Mendez Guadalupe</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Cobertura Sanitaria Universal</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>¿Qué es la cobertura sanitaria universal?
+La cobertura sanitaria universal (CSU) implica que todas las personas y comunidades reciban los servicios de salud que necesitan sin tener que pasar penurias financieras para pagarlos. Abarca toda la gama de servicios de salud esenciales de calidad, desde la promoción de la salud hasta la prevención, el tratamiento, la rehabilitación y los cuidados paliativos.</p>
+<p>La CSU permite a todos acceder a servicios que atienden las causas más importantes de las enfermedades y la muerte, y asegura que la calidad de esos servicios sea suficientemente buena para mejorar la salud de las personas que los reciben.</p>
+<p>Proteger a las personas de las consecuencias financieras que puede tener el pago de los servicios de salud reduce el riesgo de que se empobrezcan a resultas de una enfermedad inesperada que exija la utilización de los ahorros de toda una vida, la venta de bienes o el recurso a préstamos, que pueden destruir su futuro y a menudo el de sus hijos.</p>
+<p>Lograr la CSU es una de las metas que se fijaron los países que adoptaron los Objetivos de Desarrollo Sostenible en 2015. Los países que progresan en el logro de la CSU también avanzarán hacia las demás metas relacionadas con la salud y los demás objetivos. La buena salud no solo hace posible que los niños aprendan y los adultos se ganen la vida y la gente escapen de la pobreza, sino que también sienta las bases para el desarrollo económico a largo plazo.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/imagen8.jpg',1)"><img src="imagenes/imagen7.jpg" width="275" height="183" id="Image3"></a></div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/iconozalud.png" width="46" height="46" alt="pie">
+</div>
+<h4>Aplicacion 3 Dia Mundial de la Salud</h4>
+<h4>Rojano Mendez Guadalupe</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>¿Que no incluye la cobertura sanitaria universal?</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+¿Qué es lo que no se incluye en la cobertura sanitaria universal?
+<li>La CSU no implica la cobertura gratuita de todas las intervenciones sanitarias posibles, independientemente de su costo, ya que ningún país puede permitirse ofrecer todos los servicios gratuitamente de forma sostenible.</li>
+<li>La CSU no se refiere únicamente a la financiación de la salud: abarca todos los componentes del sistema de salud, a saber, los sistemas de prestación de servicios de salud, el personal sanitario, las instalaciones sanitarias o las redes de comunicación, las tecnologías sanitarias, los sistemas de información, los mecanismos de garantía de la calidad, la gobernanza y la legislación.</li>
+<li>La CSU no solo tiene por finalidad asegurar un conjunto de servicios de salud mínimos, sino también lograr la ampliación progresiva de la cobertura de los servicios de salud y de la protección financiera, conforme se disponga de más recursos.</li>
+<li>La CSU no solo engloba los servicios de tratamiento específicos, sino también incluye los servicios a la población como las campañas de salud pública, la adición de flúor al agua, el control de los lugares de reproducción de los mosquitos, entre otros.</li>
+<li>La CSU comprende mucho más que solo la salud. Adoptar medidas para alcanzar la cobertura sanitaria universal equivale a adoptar medidas para lograr la equidad, las prioridades en materia de desarrollo y la inclusión y cohesión sociales.</li>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/imagen10.jpg',1)"><img src="imagenes/imagen9.jpg" width="300" height="168" id="Image4"></a></div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/iconozalud.png" width="46" height="46" alt="pie">
+</div>
+<h4>Aplicacion 3 Dia Mundial de la Salud</h4>
+<h4>Rojano Mendez Guadalupe</h4>
+</div>
+</div>
+
+</body>
+</html>    
+
